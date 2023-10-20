@@ -1,1 +1,12 @@
 <p>header works!</p>
+<h3>welcome mister {{name }} please identify you</h3>
+<input #myname type="text" values="satyam">
+<input [id]="myid"type="text  ">
+<button (click)="onClick()">click</button>
+{{greetings}}
+<input #my type="text">
+<button (click)="Message(my.value)">log</button>
+{{my.value}}
+<h2 [style.color]="'orange'">satyam</h2>
+
+
